@@ -25,6 +25,60 @@ function About() {
               &#xa0;&#x3c;Akash Tiwari&#x2f;&#x3e;&#xa0;
             </div>
           </div>
+          <div className="about_section">
+            <div className="section1">
+              <p>
+                I am currently a{" "}
+                <div className="dev">Front-End Web Developer</div> living in
+                Ayodhya,India. An undergrad of BMS College of Engineering. I
+                make Websites usually with{" "}
+                <span style={{ color: "yellow", fontFamily: "Staatliches" }}>
+                  ReactJS
+                </span>{" "}
+                or{" "}
+                <span style={{ color: "yellow", fontFamily: "Staatliches" }}>
+                  NextJS
+                </span>
+                . I'm also learning Back-End Development and looking forward to
+                be a <div className="dev">Full Stack Web Developer</div>{" "}
+              </p>
+            </div>
+            <div className="section2">
+              <p>
+                If you have something in{" "}
+                <span style={{ color: "yellow", fontFamily: "Staatliches" }}>
+                  MIND
+                </span>{" "}
+                and want to put it on the front, you can reach me, we will get
+                <span className="dev"> straight to work.</span>
+              </p>
+            </div>
+            <div className="section3">
+              <p>
+                You can reach me on{" "}
+                <a
+                  href="https://www.linkedin.com/in/akash-tiwari-03b3621b7/"
+                  className="dev1"
+                >
+                  LINKEDIN
+                </a>{" "}
+                ,{" "}
+                <a
+                  href="https://www.instagram.com/__s.k.yyy__/"
+                  className="dev1"
+                >
+                  INSTAGRAM
+                </a>{" "}
+                and on{" "}
+                <a
+                  href="https://www.facebook.com/profile.php?id=100037184014722"
+                  className="dev1"
+                >
+                  FACEBOOK
+                </a>
+              </p>
+            </div>
+          </div>
         </Wrap>
       </Section>
     </Container>
@@ -58,7 +112,6 @@ const Section = styled.div`
   bottom: 0;
   left: 0;
   overflow-y: scroll;
-  direction: rtl;
   width: 100vw;
   height: 100vh;
 `;
@@ -74,12 +127,12 @@ const CustomClose = styled(CloseRoundedIcon)`
 const Wrap = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* position: absolute;
   top: 20vh;
   left: 10vw;
-  right: 10vw;
+  right: 10vw; */
   .heading {
     display: flex;
     flex-direction: column;
@@ -116,5 +169,39 @@ const Wrap = styled.div`
     background: transparent;
     opacity: 0.05;
     transition: all 0.5s ease-in-out;
+  }
+  .section1 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .section2 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .about_section p {
+    font-size: 25px;
+    margin: 5%;
+    width: 50vw;
+    font-family: "Roboto";
+  }
+  /* .p1 {
+    margin: 5%;
+    width: 50vw;
+  }
+  .p2 {
+    margin: 5%;
+    width: 50vw;
+    align-items: right;
+  } */
+  .dev {
+    font-size: 50px;
+    margin: 15px 0px;
+    color: #06ff65;
+  }
+  .dev1 {
+    font-size: 50px;
+    margin: 15px 0px;
+    color: #06ff65;
+    text-decoration: none;
   }
 `;
