@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import InstagramIcon from "@material-ui/icons/Instagram";
@@ -9,6 +8,7 @@ import { makeStyles } from "@material-ui/core/styles";
 const useStyles = makeStyles({
   root: {
     color: "white",
+    // backgroundColor: "yellow",
   },
 });
 
@@ -16,34 +16,46 @@ function Connect() {
   const classes = useStyles();
 
   return (
-    <Container>
-      <a href="https://www.facebook.com/profile.php?id=100037184014722">
-        <FacebookIcon className={classes.root} />
+    <div className="flex flex-col fixed bottom-5 right-5 sm:bottom-10 sm:right-10 md:bottom-12 md:right-12 lg:bottom-20 lg:right-20 bg-transparent">
+      <a
+        href="https://www.facebook.com/profile.php?id=100037184014722"
+        className="mb-2 bg-transparent"
+      >
+        <FacebookIcon
+          className={classes.root}
+          // fontSize="large"
+          style={{ backgroundColor: "transparent" }}
+        />
       </a>
-      <a href="https://github.com/akku750156">
-        <GitHubIcon className={classes.root} />
+      <a href="https://github.com/akku750156" className="mb-2 bg-transparent">
+        <GitHubIcon
+          className={classes.root}
+          // fontSize="large"
+          style={{ backgroundColor: "transparent" }}
+        />
       </a>
-      <a href="https://www.instagram.com/__s.k.yyy__/">
-        <InstagramIcon className={classes.root} />
+      <a
+        href="https://www.instagram.com/__s.k.yyy__/"
+        className="mb-2 bg-transparent"
+      >
+        <InstagramIcon
+          className={classes.root}
+          // fontSize="large"
+          style={{ backgroundColor: "transparent" }}
+        />
       </a>
-      <a href="https://www.linkedin.com/in/akash-tiwari-03b3621b7/">
-        <LinkedInIcon className={classes.root} />
+      <a
+        href="https://www.linkedin.com/in/akash-tiwari-03b3621b7/"
+        className="mb-2 bg-transparent"
+      >
+        <LinkedInIcon
+          className={classes.root}
+          // fontSize="large"
+          style={{ backgroundColor: "transparent" }}
+        />
       </a>
-    </Container>
+    </div>
   );
 }
 
 export default Connect;
-
-const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  bottom: 4vh;
-  right: 3vw;
-  z-index: 2;
-
-  a {
-    margin-bottom: 1vh;
-  }
-`;

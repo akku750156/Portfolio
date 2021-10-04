@@ -12,6 +12,7 @@ module.exports = {
         primary: "#071c21",
         secondary: "#FCD34D",
         tertiary: "#10B981",
+        modal: "#052C4F",
       },
       textColor: {
         heading: "#ffd000",

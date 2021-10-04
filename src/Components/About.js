@@ -30,9 +30,9 @@ function About() {
             <div>
               living in Ayodhya , India. An undergrad of BMS College of
               Engineering. I make Websites usually with{" "}
-              <span className="text-yellow-300 font-bold">REACTJS</span> or
-              <span className="text-yellow-300 font-bold"> NEXTJS.</span> I'm
-              also learning Back-End Development and looking forward to ba a
+              <span className="text-smtext font-bold">REACTJS</span> or
+              <span className="text-smtext font-bold"> NEXTJS.</span> I'm also
+              learning Back-End Development and looking forward to ba a
             </div>
             <div className="text-2xl sm:text-4xl md:text-5xl text-lgtext font-bold my-2">
               Full Stack Web Developer

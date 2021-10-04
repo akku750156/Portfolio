@@ -4,6 +4,7 @@ import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 import About from "./Components/About";
 import Experience from "./Components/Experience";
 import Techs from "./Components/Techs";
+import Connect from "./Components/Connect";
 
 // import Connect from "./Components/Connect";
 // import About from "./Components/About";
@@ -27,7 +28,7 @@ function App() {
         {/* <About /> */}
         {/* <Techs /> */}
         {/* <Experience /> */}
-        {/* <Connect /> */}
+        <Connect />
       </div>
     </>
   );
