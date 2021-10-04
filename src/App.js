@@ -1,21 +1,35 @@
 import "./App.css";
-import Header from "./Components/Header";
-import Connect from "./Components/Connect";
+import Home from "./Components/Home";
+import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 import About from "./Components/About";
-import Developer from "./Components/Developer";
-import Techs from "./Components/Techs";
 import Experience from "./Components/Experience";
+import Techs from "./Components/Techs";
+
+// import Connect from "./Components/Connect";
+// import About from "./Components/About";
+// import Developer from "./Components/Developer";
+// import Techs from "./Components/Techs";
+// import Experience from "./Components/Experience";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Connect />
-      <About />
-      <Developer />
-      <Techs />
-      <Experience />
-    </div>
+    <>
+      <div className="App">
+        <Router>
+          <Switch>
+            <Route exact path="/" component={Home}></Route>
+            <Route exact path="/About" component={About}></Route>
+            <Route exact path="/Experience" component={Experience}></Route>
+            <Route exact path="/Techs" component={Techs}></Route>
+          </Switch>
+        </Router>
+        {/* <Developer /> */}
+        {/* <About /> */}
+        {/* <Techs /> */}
+        {/* <Experience /> */}
+        {/* <Connect /> */}
+      </div>
+    </>
   );
 }
 
