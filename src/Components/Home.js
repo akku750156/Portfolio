@@ -19,8 +19,10 @@ function Home() {
             <div className="ml-2">Menu</div>
           </div>
           <div className="flex justify-center items-center">
-            <div className="mr-2">Projects</div>
-            <BlurOnRoundedIcon fontSize="large" />
+            <Link to="/Projects" className="flex justify-center items-center">
+              <div className="mr-2">Projects</div>
+              <BlurOnRoundedIcon fontSize="large" />
+            </Link>
           </div>
         </div>
         <Fade bottom>

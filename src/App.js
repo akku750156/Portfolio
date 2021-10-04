@@ -5,6 +5,7 @@ import About from "./Components/About";
 import Experience from "./Components/Experience";
 import Techs from "./Components/Techs";
 import Connect from "./Components/Connect";
+import Projects from "./Components/Projects";
 
 // import Connect from "./Components/Connect";
 // import About from "./Components/About";
@@ -22,12 +23,9 @@ function App() {
             <Route exact path="/About" component={About}></Route>
             <Route exact path="/Experience" component={Experience}></Route>
             <Route exact path="/Techs" component={Techs}></Route>
+            <Route exact path="/Projects" component={Projects}></Route>
           </Switch>
         </Router>
-        {/* <Developer /> */}
-        {/* <About /> */}
-        {/* <Techs /> */}
-        {/* <Experience /> */}
         <Connect />
       </div>
     </>
