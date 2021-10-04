@@ -1,21 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
-  color: #D4ECDD;
-  overflow: hidden;
+  color: #ffffff;
 
   font-family: 'Stick No Bills', sans-serif;
-
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-html {
-  --scrollbarBG: #CFD8DC;
-  --thumbBG: #90A4AE;
-}
-
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

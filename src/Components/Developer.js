@@ -8,9 +8,7 @@ function Developer() {
       <Fade bottom>
         <Dev>
           <div className="heading1">&#xa0;&#x3c;HELLO&#x2f;&#x3e;&#xa0;</div>
-          <div className="heading">
-            &#xa0;&#x3c;DEVELOPERS&#x2f;&#x3e;&#xa0;
-          </div>
+          <div className="heading">&#xa0;&#x3c;WORLD&#x2f;&#x3e;&#xa0;</div>
         </Dev>
       </Fade>
     </Container>
@@ -25,17 +23,17 @@ const Container = styled.div`
   align-items: center;
   top: 10vh;
   left: 10vw;
-  min-height: 70vh;
+  height: 70vh;
 
   .heading {
     font-family: "Stick No Bills", sans-serif;
-    font-size: 200px;
+    font-size: 11rem;
     background: transparent;
   }
   .heading1 {
     font-family: "Londrina Outline", cursive;
-    font-size: 150px;
-    margin-bottom: -100px;
+    font-size: 7rem;
+    margin-bottom: -6rem;
   }
 `;
 const Dev = styled.div`
