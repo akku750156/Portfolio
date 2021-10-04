@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 import WorkOutlineIcon from "@material-ui/icons/WorkOutline";
 
 function ExpModal(props) {

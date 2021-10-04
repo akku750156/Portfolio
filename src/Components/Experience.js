@@ -1,20 +1,15 @@
-import React, { useState } from "react";
-import KeyboardArrowUpRoundedIcon from "@material-ui/icons/KeyboardArrowUpRounded";
-import styled from "styled-components";
-import CloseRoundedIcon from "@material-ui/icons/CloseRounded";
+import React from "react";
 import ExpModal from "../Components/ExpModal";
 
 function Experience() {
-  const [aboutOpen, setAboutOpen] = useState(false);
-
   return (
     <div className="m-4 sm:m-5 md:m-6 lg:m-7">
       <div className="flex flex-col items-center">
         <div className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-bgheading">
-          &#xa0;&#x3c;TECHS&#x2f;&#x3e;&#xa0;
+          &#xa0;&#x3c;Experience&#x2f;&#x3e;&#xa0;
         </div>
-        <div className="text-heading font-sans text-5xl sm:text-6xl absolute mt-4 md:mt-6 lg:mt-10 bg-transparent md:text-8xl lg:text-9xl font-bold">
-          SKILLS
+        <div className="text-heading font-sans text-5xl sm:text-6xl md:text-7xl absolute mt-4 sm:mt-5 md:mt-6 lg:mt-10 bg-transparent lg:text-9xl  font-bold">
+          HUSTLE
         </div>
       </div>
       <div className="mt-12 sm:mt-16 md:mt-20 lg:mt-28">

@@ -7,12 +7,6 @@ import Techs from "./Components/Techs";
 import Connect from "./Components/Connect";
 import Projects from "./Components/Projects";
 
-// import Connect from "./Components/Connect";
-// import About from "./Components/About";
-// import Developer from "./Components/Developer";
-// import Techs from "./Components/Techs";
-// import Experience from "./Components/Experience";
-
 function App() {
   return (
     <>
