@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 // import ArrowForwardIosRoundedIcon from "@material-ui/icons/ArrowForwardIosRounded";
 // import styled from "styled-components";
 // import CloseRoundedIcon from "@material-ui/icons/CloseRounded";
@@ -42,16 +43,30 @@ function About() {
         <div className="flex flex-col items-end">
           <div className="flex flex-col sm:items-end mt-12 sm:w-1/2 sm:mt-16 md:mt-20 font-mono text-xs sm:text-base md:text-lg lg:text-2xl">
             <div>
-              If you have something in{" "}
-              <span className="text-smtext font-bold">MIND</span> and want to
-              put it on the front, you can reach me, we will get{" "}
+              Dont want to
+              <span className="text-smtext font-bold"> ENTANGLE</span> in the
+              coding part, Just relax and plan the project and let me do the
               <span className="text-2xl sm:text-4xl md:text-5xl text-lgtext font-bold my-2">
-                straight to work.
+                CODE SECTION.
               </span>
             </div>
           </div>
         </div>
+
         <div className="flex flex-col">
+          <div className="flex flex-col sm:items-end mt-12 sm:w-1/2 sm:mt-16 md:mt-20 font-mono text-xs sm:text-base md:text-lg lg:text-2xl">
+            <div>
+              If you have something in{" "}
+              <span className="text-smtext font-bold">MIND</span> and want to
+              put it on the front, you can reach me, we will get{" "}
+              <span className="text-2xl sm:text-4xl md:text-5xl text-lgtext font-bold my-2">
+                STRAIGHT TO WORK.
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-col items-end">
           <div className="flex flex-col mt-12 sm:w-1/2 sm:mt-16 md:mt-20 font-mono text-xs sm:text-base md:text-lg lg:text-2xl">
             <div>
               You can <span className="text-smtext font-bold">REACH</span> me on{" "}
