@@ -3,7 +3,7 @@ import ExpModal from "../Components/ExpModal";
 
 function Experience() {
   return (
-    <div className="m-4 sm:m-5 md:m-6 lg:m-7">
+    <div className="p-4 sm:p-5 md:p-6 lg:p-7 bg-primary min-h-screen">
       <div className="flex flex-col items-center">
         <div className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-bgheading">
           &#xa0;&#x3c;Experience&#x2f;&#x3e;&#xa0;

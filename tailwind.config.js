@@ -13,12 +13,16 @@ module.exports = {
         secondary: "#FCD34D",
         tertiary: "#10B981",
         modal: "#052C4F",
+        experience: "#1C0C5B",
       },
       textColor: {
         heading: "#ffd000",
         bgheading: "#ffd000",
         lgtext: "#10B981",
         smtext: "#FCD34D",
+      },
+      boxShadow: {
+        "3xl": "0px 0px 20px 5px black",
       },
     },
   },

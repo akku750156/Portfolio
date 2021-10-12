@@ -9,19 +9,19 @@ function Home() {
   const [sidebar, setSidebar] = useState(false);
 
   return (
-    <div className="px-4 sm:px-8 md:px-16 lg:px-20">
-      <div className="m-2">
+    <div className="px-4 sm:px-8 md:px-16 lg:px-20 bg-primary">
+      <div className="p-2">
         <div className="bg-transparent flex justify-between items-center">
           <div className="flex justify-center items-center">
             <div className="" onClick={() => setSidebar(true)}>
-              <MenuroundedIcon />
+              <MenuroundedIcon className="text-white" />
             </div>
-            <div className="ml-2">Menu</div>
+            <div className="ml-2 text-white">Menu</div>
           </div>
           <div className="flex justify-center items-center">
             <Link to="/Projects" className="flex justify-center items-center">
-              <div className="mr-2">Projects</div>
-              <BlurOnRoundedIcon fontSize="large" />
+              <div className="mr-2 text-white">Projects</div>
+              <BlurOnRoundedIcon fontSize="large" className="text-white" />
             </Link>
           </div>
         </div>
@@ -45,11 +45,11 @@ function Home() {
             >
               <CloseRoundedIcon className="bg-secondary" color="primary" />
             </div>
-            <div className="flex flex-col justify-content text-left text-4xl bg-secondary tracking-widest text-lgtext sm:text-5xl md:text-7xl lg:text-8xl">
+            <div className="flex flex-col justify-content text-left text-4xl bg-secondary tracking-widest  sm:text-5xl md:text-7xl lg:text-8xl">
               <div className="bg-secondary">
                 <Link
                   to="/About"
-                  className="bg-secondary px-6 hover:bg-primary rounded-xl transition-all"
+                  className="bg-secondary px-6 hover:bg-primary rounded-xl transition-all text-lgtext"
                 >
                   About
                 </Link>
@@ -57,7 +57,7 @@ function Home() {
               <div className="bg-secondary mt-10">
                 <Link
                   to="/Experience"
-                  className="bg-secondary px-6 hover:bg-primary rounded-xl transition-all"
+                  className="bg-secondary px-6 hover:bg-primary rounded-xl transition-all text-lgtext"
                 >
                   Experience
                 </Link>
@@ -65,7 +65,7 @@ function Home() {
               <div className="bg-secondary mt-10">
                 <Link
                   to="/Techs"
-                  className="bg-secondary px-6 hover:bg-primary rounded-xl transition-all"
+                  className="bg-secondary px-6 hover:bg-primary rounded-xl transition-all text-lgtext"
                 >
                   Techs
                 </Link>

@@ -12,7 +12,7 @@ function About() {
   }, []);
   return (
     <div data-aos="fade-up">
-      <div className="mx-4 my-2">
+      <div className="px-4 py-2 text-white bg-primary min-h-screen">
         <div className="flex flex-col items-center">
           <div className="font-serif text-4xl md:text-7xl lg:text-9xl text-bgheading">
             &#xa0;&#x3c;ABOUT&#x2f;&#x3e;&#xa0;
@@ -56,17 +56,28 @@ function About() {
             <div>
               You can <span className="text-smtext font-bold">REACH</span> me on{" "}
               <span className="text-2xl sm:text-4xl md:text-5xl text-lgtext font-bold my-2">
-                <a href="https://www.linkedin.com/in/akash-tiwari-03b3621b7/">
+                <a
+                  href="https://www.linkedin.com/in/akash-tiwari-03b3621b7/"
+                  className="text-lgtext"
+                >
                   LINKEDIN
                 </a>
               </span>{" "}
               ,{" "}
               <span className="text-2xl sm:text-4xl md:text-5xl text-lgtext font-bold my-2">
-                <a href="https://www.instagram.com/__s.k.yyy__/">INSTAGRAM</a>
+                <a
+                  href="https://www.instagram.com/__s.k.yyy__/"
+                  className="text-lgtext"
+                >
+                  INSTAGRAM
+                </a>
               </span>{" "}
               and on{" "}
               <span className="text-2xl sm:text-4xl md:text-5xl text-lgtext font-bold my-2">
-                <a href="https://www.facebook.com/profile.php?id=100037184014722">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100037184014722"
+                  className="text-lgtext"
+                >
                   FACEBOOK
                 </a>
               </span>

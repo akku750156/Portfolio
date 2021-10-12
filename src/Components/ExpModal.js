@@ -3,7 +3,7 @@ import WorkOutlineIcon from "@material-ui/icons/WorkOutline";
 
 function ExpModal(props) {
   return (
-    <div className="my-8 border-2 p-3 rounded-xl shadow-2xl bg-modal">
+    <div className="my-8 border-2 p-3 rounded-xl shadow-2xl bg-modal text-white font-sans">
       <div className="flex flex-col m-auto bg-modal">
         <div className="flex justify-between bg-modal mb-2">
           <div className="flex justify-center items-center bg-modal">
