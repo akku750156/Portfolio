@@ -16,18 +16,14 @@ function ProModal(props) {
       <div className="flex flex-col m-auto bg-modal">
         <div className="flex justify-between bg-modal mb-2">
           <div className="flex justify-center items-center bg-modal">
-            <div className="h-4 w-4 bg-red-600 rounded-full mr-1"></div>
-            <div className="h-4 w-4 bg-yellow-300  rounded-full mr-1"></div>
-            <div className="h-4 w-4 bg-green-500 rounded-full"></div>
+            <div className="h-4 w-4 bg-red-600 rounded-full mr-1 drop-shadow-2xl"></div>
+            <div className="h-4 w-4 bg-yellow-300  rounded-full mr-1 drop-shadow-2xl"></div>
+            <div className="h-4 w-4 bg-green-500 rounded-full drop-shadow-2xl"></div>
           </div>
           <div className="bg-modal">
-            <a
-              href="https://github.com/akku750156"
-              className="mb-2 bg-transparent"
-            >
+            <a href={props.gitLink} className="mb-2 bg-transparent">
               <GitHubIcon
                 className={classes.root}
-                // fontSize="large"
                 style={{ backgroundColor: "transparent" }}
               />
             </a>

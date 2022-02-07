@@ -74,38 +74,8 @@ function Home() {
           </Fade>
         </div>
       )}
-      {/* <div className="mt-12 sm:mt-16 md:mt-20 lg:mt-32 flex flex-col font-mono text-lg sm:text-2xl md:text-3xl lg:text-4xl">
-        <div className="font-mono">
-          <div className="mb-2 sm:mb-4 md:mb-6 lg:mb-8">Hi, Welcome to my </div>
-          <div className="text-smtext font-bold mb-2 sm:mb-4 md:mb-6 lg:mb-8">
-            PARADISE
-          </div>
-
-          <div className="mb-2 sm:mb-4 md:mb-6 lg:mb-8">
-            This is{" "}
-            <span className="text-3xl sm:text-5xl md:text-7xl text-lgtext font-bold my-2">
-              Akash Tiwari
-            </span>
-          </div>
-          <div className="text-smtext my-2 font-bold">
-            "Things aren't always{" "}
-            <span className="text-black bg-white p-1 rounded-xl">#000000</span>{" "}
-            and{" "}
-            <span className="text-white bg-black px-2 py-1 rounded-xl">
-              #ffffff{" "}
-            </span>
-            "
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 }
 
 export default Home;
-
-// const Logo = styled.img`
-//   width: 5rem;
-//   padding: 0 10px;
-//   animation: rotation infinite 3.5s;
-// `;

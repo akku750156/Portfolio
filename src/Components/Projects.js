@@ -13,7 +13,14 @@ function Projects() {
         </div>
       </div>
       <div className="mt-12 sm:mt-16 md:mt-20 lg:mt-28">
-        <ProModal
+        {projects.map((project) => (
+          <ProModal
+            name={project.name}
+            gitLink={project.gitLink}
+            techs={project.techs}
+          />
+        ))}
+        {/* <ProModal
           name="Instagram-Complete"
           gitLink="https://github.com/akku750156/Instagram-Complete.git"
           techs={["ReactJS", "Firebase", "MaterialUI"]}
@@ -37,10 +44,38 @@ function Projects() {
           name="Cart"
           gitLink="https://github.com/akku750156/Cart.git"
           techs={["ReactJS", "MaterialUI"]}
-        />
+        /> */}
       </div>
     </div>
   );
 }
+
+const projects = [
+  {
+    name: "Instagram-Complete",
+    gitLink: "https://github.com/akku750156/Instagram-Complete.git",
+    techs: ["ReactJS", "Firebase", "MaterialUI"],
+  },
+  {
+    name: "Portfolio",
+    gitLink: "https://github.com/akku750156/Portfolio.git",
+    techs: ["ReactJS", "TailwindCSS", "gsap", "aos"],
+  },
+  {
+    name: "Tesla-Front-End",
+    gitLink: "https://github.com/akku750156/Tesla-Front-End.git",
+    techs: ["ReactJS", "Redux", "MaterialUI", "Styled-Components"],
+  },
+  {
+    name: "Mausam",
+    gitLink: "https://github.com/akku750156/Mausam.git",
+    techs: ["ReactJS", "MaterialUI"],
+  },
+  {
+    name: "Cart",
+    gitLink: "https://github.com/akku750156/Cart.git",
+    techs: ["ReactJS", "MaterialUI"],
+  },
+];
 
 export default Projects;
