@@ -18,33 +18,10 @@ function Projects() {
             name={project.name}
             gitLink={project.gitLink}
             techs={project.techs}
+            desc={project.desc}
+            links={project.links}
           />
         ))}
-        {/* <ProModal
-          name="Instagram-Complete"
-          gitLink="https://github.com/akku750156/Instagram-Complete.git"
-          techs={["ReactJS", "Firebase", "MaterialUI"]}
-        />
-        <ProModal
-          name="Portfolio"
-          gitLink="https://github.com/akku750156/Portfolio.git"
-          techs={["ReactJS", "TailwindCSS", "gsap", "aos"]}
-        />
-        <ProModal
-          name="Tesla-Front-End"
-          gitLink="https://github.com/akku750156/Tesla-Front-End.git"
-          techs={["ReactJS", "Redux", "MaterialUI", "Styled-Components"]}
-        />
-        <ProModal
-          name="Mausam"
-          gitLink="https://github.com/akku750156/Mausam.git"
-          techs={["ReactJS", "MaterialUI"]}
-        />
-        <ProModal
-          name="Cart"
-          gitLink="https://github.com/akku750156/Cart.git"
-          techs={["ReactJS", "MaterialUI"]}
-        /> */}
       </div>
     </div>
   );
@@ -54,27 +31,91 @@ const projects = [
   {
     name: "Instagram-Complete",
     gitLink: "https://github.com/akku750156/Instagram-Complete.git",
-    techs: ["ReactJS", "Firebase", "MaterialUI"],
+    techs: [
+      { name: "ReactJS", link: "../images/react.png" },
+      { name: "Firebase", link: "../images/firebase.png" },
+      { name: "MaterialUI", link: "../images/matrerialUI.png" },
+    ],
+    desc: "Firebase authenticated Instagram clone. Features like comments , uploading images, Liking the images.",
+    links: [
+      {
+        name: "Github",
+        image: "../images/GitHub.png",
+        url: "https://github.com/akku750156/Instagram-Complete.git",
+      },
+      { name: "Website", image: "../images/website.png", url: "" },
+    ],
   },
   {
     name: "Portfolio",
     gitLink: "https://github.com/akku750156/Portfolio.git",
-    techs: ["ReactJS", "TailwindCSS", "gsap", "aos"],
+    techs: [
+      { name: "ReactJS", link: "../images/react.png" },
+      { name: "TailwindCSS", link: "../images/tailwind.png" },
+      { name: "gsap", link: "" },
+      { name: "aos", link: "" },
+    ],
+    desc: "Basically a Portfolio website, used some of the small animation libraries like Gsap",
+    links: [
+      {
+        name: "Github",
+        image: "../images/GitHub.png",
+        url: "https://github.com/akku750156/Portfolio.git",
+      },
+      { name: "Website", image: "../images/website.png", url: "" },
+    ],
   },
   {
     name: "Tesla-Front-End",
     gitLink: "https://github.com/akku750156/Tesla-Front-End.git",
-    techs: ["ReactJS", "Redux", "MaterialUI", "Styled-Components"],
+    techs: [
+      { name: "ReactJS", link: "../images/react.png" },
+      { name: "Redux", link: "../images/redux.png" },
+      { name: "MaterialUI", link: "../images/matrerialUI.png" },
+    ],
+    desc: "A tesla clone to test some skills related gto Redux and Material UI and added some cool animations",
+    links: [
+      {
+        name: "Github",
+        image: "../images/GitHub.png",
+        url: "https://github.com/akku750156/Tesla-Front-End.git",
+      },
+      { name: "Website", image: "../images/website.png", url: "" },
+    ],
   },
   {
     name: "Mausam",
     gitLink: "https://github.com/akku750156/Mausam.git",
-    techs: ["ReactJS", "MaterialUI"],
+    techs: [
+      { name: "ReactJS", link: "../images/react.png" },
+      { name: "MaterialUI", link: "../images/matrerialUI.png" },
+    ],
+    desc: "A weather app used extracting the weather conditions of the perticulart searched places and results with the temperature of that place along with the weather related image",
+    links: [
+      {
+        name: "Github",
+        image: "../images/GitHub.png",
+        url: "https://github.com/akku750156/Mausam.git",
+      },
+      { name: "Website", image: "../images/website.png", url: "" },
+    ],
   },
   {
     name: "Cart",
     gitLink: "https://github.com/akku750156/Cart.git",
-    techs: ["ReactJS", "MaterialUI"],
+    techs: [
+      { name: "ReactJS", link: "../images/react.png" },
+      { name: "MaterialUI", link: "../images/matrerialUI.png" },
+    ],
+    desc: "Just a simple cart used to learn some of the props skills related to ReactJS",
+    links: [
+      {
+        name: "Github",
+        image: "../images/GitHub.png",
+        url: "https://github.com/akku750156/Cart.git",
+      },
+      { name: "Website", image: "../images/website.png", url: "" },
+    ],
   },
 ];
 
