@@ -6,7 +6,7 @@ import Experience from "./Components/Experience";
 import Techs from "./Components/Techs";
 import Connect from "./Components/Connect";
 import Projects from "./Components/Projects";
-import Footer from "./Components/Footer";
+// import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
           </Switch>
         </Router>
         <Connect />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );
