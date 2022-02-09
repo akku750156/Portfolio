@@ -1,6 +1,6 @@
 import React from "react";
 import ProModal from "../Components/ProModal";
-
+import Footer from "../Components/Footer";
 function Projects() {
   return (
     <div className="p-4 sm:p-5 md:p-6 lg:p-7 bg-primary min-h-screen">
@@ -23,6 +23,7 @@ function Projects() {
           />
         ))}
       </div>
+      <Footer />
     </div>
   );
 }

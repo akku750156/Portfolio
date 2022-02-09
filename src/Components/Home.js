@@ -9,8 +9,8 @@ function Home() {
   const [sidebar, setSidebar] = useState(false);
 
   return (
-    <div className="px-4 sm:px-8 md:px-16 lg:px-20 bg-primary">
-      <div className="p-2">
+    <div className="px-4 sm:px-8 md:px-16 lg:px-20 bg-primary h-screen flex flex-col ">
+      <div className="p-2 flex flex-col justify-between h-screen">
         <div className="bg-transparent flex justify-between items-center">
           <div className="flex justify-center items-center">
             <div className="" onClick={() => setSidebar(true)}>
@@ -25,8 +25,9 @@ function Home() {
             </Link>
           </div>
         </div>
+
         <Fade bottom>
-          <div className="flex flex-col justify-center h-screen items-center relative">
+          <div className="flex flex-col justify-center items-center relative">
             <div className="font-serif absolute bg-transparent mb-12 sm:mb-12 md:mb-20 lg:mb-28 text-5xl md:text-7xl lg:text-8xl text-bgheading">
               &#xa0;&#x3c;HELLO&#x2f;&#x3e;&#xa0;
             </div>
@@ -35,6 +36,9 @@ function Home() {
             </div>
           </div>
         </Fade>
+        <div className="flex justify-center bg-primary text-smtext font-bold">
+          DEVELOPED while eating 🍕 with ❤
+        </div>
       </div>
       {sidebar && (
         <div className="font-mono absolute top-0 left-0 w-screen h-screen bg-secondary flex justify-center items-center overflow-hidden">
