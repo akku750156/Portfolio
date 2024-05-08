@@ -13,21 +13,29 @@ function Experience() {
         </div>
       </div>
       <div className="mt-12 sm:mt-16 md:mt-20 lg:mt-28">
-        <ExpModal
-          company="HEALINGS"
-          job="React Front-End Developer"
-          point1="● I worked in HEALINGS as a React FrontEnd Developer"
-          point2="● Working on the front-end part of their application using REACT, MATERIAL UI"
-          date="May 2021 - Present"
+      <ExpModal
+          company="Sahaj Software"
+          job="Solution Consultant"
+          point1="● Purpose-built AI and data-led solutions for our clients."
+          point2="● Working with variety of Techs which aligns with the solutions we provide."
+          date="Mar 2023 - Present"
         />
-        <ExpModal
+      <ExpModal
           company="MYNERVA"
           job="Front-End Developer"
           point1="● Building entire UI of Web Application of an ED-TECH
-platform"
-          point2="● Using REACT, REDUX ,TAILWIND"
-          date="Sep 2021 - Present"
+platform."
+          point2="● Using REACT, REDUX ,TAILWIND."
+          date="Aug 2021 - Apr 2022"
         />
+        <ExpModal
+          company="HEALINGS"
+          job="React Front-End Developer"
+          point1="● I worked in HEALINGS as a React FrontEnd Developer."
+          point2="● Working on the front-end part of their application using REACT, MATERIAL UI."
+          date="Feb 2021 - Jun 2021"
+        />
+        
       </div>
     </div>
   );
